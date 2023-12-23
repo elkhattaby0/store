@@ -1,0 +1,430 @@
+[{
+  "_id": {
+    "$oid": "6575e5d80647d88ae7b46bd7"
+  },
+  "name": "Cellphone",
+  "codeUser": "6575e59d0647d88ae7b46bd6",
+  "price": "499",
+  "type": "phone",
+  "imageUrl": "cellphone.jpg"
+},
+{
+  "_id": {
+    "$oid": "6575e64a0647d88ae7b46bd8"
+  },
+  "name": "handwatch",
+  "codeUser": "6575e59d0647d88ae7b46bd6",
+  "price": "259",
+  "type": "watch",
+  "imageUrl": "smartwatch.jpg"
+},
+{
+  "_id": {
+    "$oid": "6575e7dc0647d88ae7b46bda"
+  },
+  "name": "Bag",
+  "codeUser": "6575e7740647d88ae7b46bd9",
+  "price": "289",
+  "type": "bag",
+  "imageUrl": "bag1.jfif"
+},
+{
+  "_id": {
+    "$oid": "6575e83b0647d88ae7b46bdb"
+  },
+  "name": "Laptop Hp 34d",
+  "codeUser": "6575e7740647d88ae7b46bd9",
+  "price": "599",
+  "type": "laptop",
+  "imageUrl": "laptop1.jfif"
+},
+{
+  "_id": {
+    "$oid": "6575e94a0647d88ae7b46bdd"
+  },
+  "name": "Televetion t234",
+  "codeUser": "6575e8bf0647d88ae7b46bdc",
+  "price": "199",
+  "type": "tv",
+  "imageUrl": "tv2.jfif"
+},
+{
+  "_id": {
+    "$oid": "6575e9ff0647d88ae7b46bdf"
+  },
+  "name": "handwatch p354",
+  "codeUser": "6575e8bf0647d88ae7b46bdc",
+  "price": "308",
+  "type": "watch",
+  "imageUrl": "handwatch2.jpeg"
+},
+{
+  "_id": {
+    "$oid": "6575eac80647d88ae7b46be1"
+  },
+  "name": "Purple Bag",
+  "codeUser": "6575ea790647d88ae7b46be0",
+  "price": "580",
+  "type": "bag",
+  "imageUrl": "bag2.jfif"
+},
+{
+  "_id": {
+    "$oid": "6575eb380647d88ae7b46be2"
+  },
+  "name": "Red Cap",
+  "codeUser": "6575ea790647d88ae7b46be0",
+  "price": "140",
+  "type": "cap",
+  "imageUrl": "cap1.jpeg"
+},
+{
+  "_id": {
+    "$oid": "6575ebd70647d88ae7b46be4"
+  },
+  "name": "Nokia 3442",
+  "codeUser": "6575eb810647d88ae7b46be3",
+  "price": "200",
+  "type": "phone",
+  "imageUrl": "nokia1.jpeg"
+},
+{
+  "_id": {
+    "$oid": "6575ec150647d88ae7b46be5"
+  },
+  "name": "iphone 12 pro",
+  "codeUser": "6575eb810647d88ae7b46be3",
+  "price": "995",
+  "type": "phone",
+  "imageUrl": "phone2.jpeg"
+},
+{
+  "_id": {
+    "$oid": "6575ed010647d88ae7b46be7"
+  },
+  "name": "Mouse gaming",
+  "codeUser": "6575eca80647d88ae7b46be6",
+  "price": "199",
+  "type": "mouse",
+  "imageUrl": "mouse1.jfif"
+},
+{
+  "_id": {
+    "$oid": "6575ed4d0647d88ae7b46be8"
+  },
+  "name": "USB 32Go Sandisk",
+  "codeUser": "6575eca80647d88ae7b46be6",
+  "price": "99",
+  "type": "usb",
+  "imageUrl": "usb32go1.jfif"
+},
+{
+  "_id": {
+    "$oid": "6575ee4f0647d88ae7b46bea"
+  },
+  "name": "Blue T-Shirt",
+  "codeUser": "6575ede40647d88ae7b46be9",
+  "price": "89",
+  "type": "clothes",
+  "imageUrl": "tshirt1.jpeg"
+},
+{
+  "_id": {
+    "$oid": "6575eea30647d88ae7b46beb"
+  },
+  "name": "Pants XL",
+  "codeUser": "6575ede40647d88ae7b46be9",
+  "price": "105",
+  "type": "clothes",
+  "imageUrl": "pants1.jfif"
+},
+{
+  "_id": {
+    "$oid": "6575f3e20647d88ae7b46bee"
+  },
+  "name": "Brown Brim",
+  "codeUser": "6575f3b30647d88ae7b46bed",
+  "price": "28",
+  "type": "hats",
+  "imageUrl": "brown-brim.png"
+},
+{
+  "_id": {
+    "$oid": "6575f4060647d88ae7b46bef"
+  },
+  "name": "Blue Beanie",
+  "codeUser": "6575f3b30647d88ae7b46bed",
+  "price": "18",
+  "type": "hats",
+  "imageUrl": "blue-beanie.png"
+},
+{
+  "_id": {
+    "$oid": "6575f43c0647d88ae7b46bf0"
+  },
+  "name": "Brown Cowboy",
+  "codeUser": "6575f3b30647d88ae7b46bed",
+  "type": "hats",
+  "price": "35",
+  "imageUrl": "brown-cowboy.png"
+},
+{
+  "_id": {
+    "$oid": "6575f4700647d88ae7b46bf1"
+  },
+  "name": "Grey Brim",
+  "codeUser": "6575f3b30647d88ae7b46bed",
+  "price": "25",
+  "type": "hats",
+  "imageUrl": "grey-brim.png"
+},
+{
+  "_id": {
+    "$oid": "6575f49a0647d88ae7b46bf2"
+  },
+  "name": "Blue Snapback",
+  "codeUser": "6575f3b30647d88ae7b46bed",
+  "type": "hats",
+  "price": "16",
+  "imageUrl": "blue-snapback.png"
+},
+{
+  "_id": {
+    "$oid": "6575f5cd0647d88ae7b46bf5"
+  },
+  "name": "Green Beanie",
+  "codeUser": "6575f5420647d88ae7b46bf3",
+  "price": "18",
+  "type": "hats",
+  "imageUrl": "green-beanie.png"
+},
+{
+  "_id": {
+    "$oid": "6575f5f10647d88ae7b46bf6"
+  },
+  "name": "Palm Tree Cap",
+  "codeUser": "6575f5420647d88ae7b46bf3",
+  "price": "15",
+  "type": "hats",
+  "imageUrl": "palm-tree-cap.png"
+},
+{
+  "_id": {
+    "$oid": "6575f6190647d88ae7b46bf7"
+  },
+  "name": "Red Beanie",
+  "codeUser": "6575f5420647d88ae7b46bf3",
+  "price": "18",
+  "type": "hats",
+  "imageUrl": "red-beanie.png"
+},
+{
+  "_id": {
+    "$oid": "6575f6400647d88ae7b46bf8"
+  },
+  "name": "Wolf Cap",
+  "codeUser": "6575f5420647d88ae7b46bf3",
+  "price": "17",
+  "type": "hats",
+  "imageUrl": "wolf-cap.png"
+},
+{
+  "_id": {
+    "$oid": "6575f7630647d88ae7b46bfa"
+  },
+  "name": "Adidas NMD",
+  "codeUser": "6575f6e10647d88ae7b46bf9",
+  "type": "sneakers",
+  "price": "220",
+  "imageUrl": "adidas-nmd.png"
+},
+{
+  "_id": {
+    "$oid": "6575f78e0647d88ae7b46bfb"
+  },
+  "name": "Adidas Yeezy",
+  "codeUser": "6575f6e10647d88ae7b46bf9",
+  "price": "290",
+  "type": "sneakers",
+  "imageUrl": "yeezy.png"
+},
+{
+  "_id": {
+    "$oid": "6575f7d90647d88ae7b46bfc"
+  },
+  "name": "Black Converse",
+  "codeUser": "6575f6e10647d88ae7b46bf9",
+  "price": "110",
+  "type": "sneakers",
+  "imageUrl": "black-converse.png"
+},
+{
+  "_id": {
+    "$oid": "6575f8150647d88ae7b46bfd"
+  },
+  "name": "Nike White AirForce",
+  "codeUser": "6575f6e10647d88ae7b46bf9",
+  "type": "sneakers",
+  "price": "160",
+  "imageUrl": "white-nike-high-tops.png"
+},
+{
+  "_id": {
+    "$oid": "6575f8ad0647d88ae7b46bfe"
+  },
+  "name": "Nike Red High Tops",
+  "codeUser": "6575f6e10647d88ae7b46bf9",
+  "type": "sneakers",
+  "price": "170",
+  "imageUrl": "nikes-red.png"
+},
+{
+  "_id": {
+    "$oid": "6575f8df0647d88ae7b46bff"
+  },
+  "name": "Nike Brown High Tops",
+  "codeUser": "6575f6e10647d88ae7b46bf9",
+  "type": "sneakers",
+  "price": "160",
+  "imageUrl": "nike-brown.png"
+},
+{
+  "_id": {
+    "$oid": "6575f9010647d88ae7b46c00"
+  },
+  "name": "Air Jordan Limited",
+  "codeUser": "6575f6e10647d88ae7b46bf9",
+  "type": "sneakers",
+  "price": "199",
+  "imageUrl": "nike-funky.png"
+},
+{
+  "_id": {
+    "$oid": "6575f9150647d88ae7b46c01"
+  },
+  "name": "Timberlands",
+  "codeUser": "6575f6e10647d88ae7b46bf9",
+  "type": "sneakers",
+  "price": "200",
+  "imageUrl": "timberlands.png"
+},
+{
+  "_id": {
+    "$oid": "6575f9fa0647d88ae7b46c03"
+  },
+  "name": "Black Jean Shearling",
+  "codeUser": "6575f9880647d88ae7b46c02",
+  "type": "jackets",
+  "price": "125",
+  "imageUrl": "black-shearling.png"
+},
+{
+  "_id": {
+    "$oid": "6575fa0c0647d88ae7b46c04"
+  },
+  "name": "Blue Jean Jacket",
+  "codeUser": "6575f9880647d88ae7b46c02",
+  "type": "jackets",
+  "price": "90",
+  "imageUrl": "blue-jean-jacket.png"
+},
+{
+  "_id": {
+    "$oid": "6575fa1e0647d88ae7b46c05"
+  },
+  "name": "Grey Jean Jacket",
+  "codeUser": "6575f9880647d88ae7b46c02",
+  "type": "jackets",
+  "price": "90",
+  "imageUrl": "grey-jean-jacket.png"
+},
+{
+  "_id": {
+    "$oid": "6575fa2f0647d88ae7b46c06"
+  },
+  "name": "Brown Shearling",
+  "codeUser": "6575f9880647d88ae7b46c02",
+  "type": "jackets",
+  "price": "165",
+  "imageUrl": "brown-shearling.png"
+},
+{
+  "_id": {
+    "$oid": "6575fa3f0647d88ae7b46c07"
+  },
+  "name": "Tan Trench",
+  "codeUser": "6575f9880647d88ae7b46c02",
+  "type": "jackets",
+  "price": "185",
+  "imageUrl": "brown-trench.png"
+},
+{
+  "_id": {
+    "$oid": "6575fafd0647d88ae7b46c09"
+  },
+  "type": "men",
+  "codeUser": "6575face0647d88ae7b46c08",
+  "name": "Camo Down Vest",
+  "price": "325",
+  "imageUrl": "camo-vest.png"
+},
+{
+  "_id": {
+    "$oid": "6575fb150647d88ae7b46c0a"
+  },
+  "type": "men",
+  "codeUser": "6575face0647d88ae7b46c08",
+  "name": "Floral T-shirt",
+  "price": "35",
+  "imageUrl": "floral-shirt.png"
+},
+{
+  "_id": {
+    "$oid": "6575fb4c0647d88ae7b46c0b"
+  },
+  "type": "men",
+  "codeUser": "6575face0647d88ae7b46c08",
+  "name": "Longsleeve",
+  "price": "50",
+  "imageUrl": "long-sleeve.png"
+},
+{
+  "_id": {
+    "$oid": "6575fb630647d88ae7b46c0c"
+  },
+  "type": "men",
+  "codeUser": "6575face0647d88ae7b46c08",
+  "name": "Pink T-shirt",
+  "price": "59",
+  "imageUrl": "pink-shirt.png"
+},
+{
+  "_id": {
+    "$oid": "6575fb890647d88ae7b46c0d"
+  },
+  "type": "men",
+  "codeUser": "6575face0647d88ae7b46c08",
+  "name": "Burgundy T-shirt",
+  "price": "88",
+  "imageUrl": "polka-dot-shirt.png"
+},
+{
+  "_id": {
+    "$oid": "6575fbaa0647d88ae7b46c0e"
+  },
+  "type": "men",
+  "codeUser": "6575face0647d88ae7b46c08",
+  "name": "Jean Long Sleeve",
+  "price": "58",
+  "imageUrl": "roll-up-jean-shirt.png"
+},
+{
+  "_id": {
+    "$oid": "657c28a5848485b68a9f48f4"
+  },
+  "name": "clothes",
+  "codeUser": "6575eb810647d88ae7b46be3",
+  "price": "33",
+  "type": "clothes",
+  "imageUrl": "bk.jpg"
+}]

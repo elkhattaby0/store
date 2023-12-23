@@ -1,0 +1,156 @@
+/* One */
+.home {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  
+}
+.firstRow {
+    width: 100%;
+    height: 84vh;
+    background: #e8e8e8;
+  }
+  
+.homeContent {
+  width: 85%;
+  height: 99%;
+  display: flex;
+  color: #212121;
+}
+
+.homeLeft {
+  height: 100%;
+  width: 50%;
+  display: flex;
+}
+.homeLeft span {
+  height: 50%;
+}
+.homeLeft h1 {
+  font-size: 250%;
+  font-weight: 700;
+  width: 90%;
+}
+
+.homeLeft li {
+  font-size: 100%;
+}
+.homeLeft ul {
+  font-size: 100%;
+  width: 90%;
+  line-height: 130%;
+  padding-left: 33px;
+}
+.homeLeft button {
+  padding: 10px;
+  margin-left: 25px;
+  width: 200px;
+  border: 1px solid #212121;
+  background: #212121;
+  color: #e8e8e8;
+  border-radius: 10px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.homeLeft button:hover {
+  background: #e8e8e8;
+  color: #212121;
+}
+
+.homeRight {
+  height: 100%;
+  width: 50%;
+  background: url(../img/cover.png);
+  background-size: 105%;
+  background-repeat: no-repeat;
+  /* mix-blend-mode:difference; */
+  background-position: 50%;
+  object-fit: cover;
+  filter:hue-rotate(50%)
+}
+
+
+/* Two */
+.secondRow {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 7vh;
+  justify-content: center;
+}
+
+.homeCard {
+  height: 200px;
+  width: 400px;
+  display: flex;
+  background-color: #e8e8e8;
+  margin: 10px;
+  border-radius: 5px;
+  color: #212121;
+}
+
+.homeCardLeft {
+  height: 100%;
+  width: 30%;
+  display: flex;
+}
+
+.homeCardRight {
+  height: 100%;
+  width: 70%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.homeCardRight h1 {
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  font-size: 150%;
+  margin-bottom: 10px;
+}
+.homeCardRight p {
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  font-size: 80%;
+  width: 90%;
+}
+
+.homeCardLeft img {
+  height: 30%;
+  width: 45%;
+}
+
+.tredingOne {
+  width: 100%;
+  display: inline-block;
+  margin-top: 8%;
+}
+
+.tredingOne h1 {
+  text-align: center;
+  margin-bottom: 1%;
+}
+
+.tredingTwo{
+  width: 85%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.treding {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media screen and (max-width: 800px) {
+  .homeLeft h1 {
+    font-size: 20pt;
+  }
+}
+

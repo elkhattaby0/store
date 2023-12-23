@@ -1,0 +1,54 @@
+[{
+  "_id": {
+    "$oid": "657a51fee42a30d9e9ff69ab"
+  },
+  "codeUser": "6575e8bf0647d88ae7b46bdc"
+},
+{
+  "_id": {
+    "$oid": "657a5209e42a30d9e9ff69ac"
+  },
+  "codeUser": "6575ea790647d88ae7b46be0"
+},
+{
+  "_id": {
+    "$oid": "657a5215e42a30d9e9ff69ad"
+  },
+  "codeUser": "6575eb810647d88ae7b46be3"
+},
+{
+  "_id": {
+    "$oid": "657a5223e42a30d9e9ff69ae"
+  },
+  "codeUser": "6575ede40647d88ae7b46be9"
+},
+{
+  "_id": {
+    "$oid": "657a522fe42a30d9e9ff69af"
+  },
+  "codeUser": "6575f5420647d88ae7b46bf3"
+},
+{
+  "_id": {
+    "$oid": "657a523be42a30d9e9ff69b0"
+  },
+  "codeUser": "6575f6e10647d88ae7b46bf9"
+},
+{
+  "_id": {
+    "$oid": "657a524ae42a30d9e9ff69b1"
+  },
+  "codeUser": "6575f9880647d88ae7b46c02"
+},
+{
+  "_id": {
+    "$oid": "657a5250e42a30d9e9ff69b2"
+  },
+  "codeUser": "6575face0647d88ae7b46c08"
+},
+{
+  "_id": {
+    "$oid": "657b22c7e42a30d9e9ff69bb"
+  },
+  "codeUser": "657b2244e42a30d9e9ff69b8"
+}]

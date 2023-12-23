@@ -1,0 +1,32 @@
+/* ALERT */
+
+.success {
+    position: absolute;
+    left: 35%;
+    background-color: green;
+    color: #e8e8e8;
+    padding: 20px;
+    font-weight: 700;
+    border-radius: 4px;
+    width: 30%;
+    border-left: 6px solid #212121;
+    margin: 0;
+    display: flex;
+    visibility: hidden;
+    
+  }
+  .failed{
+    position: absolute;
+    left: 35%;
+    background-color: red;
+    color: #e8e8e8;
+    padding: 20px;
+    font-weight: 700;
+    border-radius: 4px;
+    width: 30%;
+    border-left: 6px solid #212121;
+    margin: 0;
+    display: flex;
+    visibility: hidden;
+    
+  }

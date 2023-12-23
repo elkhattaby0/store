@@ -1,0 +1,169 @@
+[{
+  "_id": {
+    "$oid": "6568bb84baa1c72da0a7cce7"
+  },
+  "admin": true,
+  "dateOfBirth": "2002-06-05",
+  "gender": "Male",
+  "email": "elkhattaby@gmail.ma",
+  "password": "1212",
+  "imageUrl": "",
+  "fname": "lahoucine",
+  "lname": "el khattaby"
+},
+{
+  "_id": {
+    "$oid": "6575e59d0647d88ae7b46bd6"
+  },
+  "fname": "zakaria",
+  "admin": false,
+  "lname": "ert",
+  "dateOfBirth": "2023-12-12",
+  "gender": "Male",
+  "email": "zakaria@gmail.com",
+  "password": "1234",
+  "imageUrl": "bk2.jpg"
+},
+{
+  "_id": {
+    "$oid": "6575e7740647d88ae7b46bd9"
+  },
+  "fname": "alex",
+  "admin": false,
+  "lname": "me",
+  "dateOfBirth": "2023-08-22",
+  "gender": "Male",
+  "email": "alex@gmail.com",
+  "password": "1234",
+  "imageUrl": "man1.png"
+},
+{
+  "_id": {
+    "$oid": "6575e8bf0647d88ae7b46bdc"
+  },
+  "fname": "leo",
+  "admin": false,
+  "lname": "gf",
+  "dateOfBirth": "2011-02-10",
+  "gender": "Male",
+  "email": "leo@gmail.com",
+  "password": "1234",
+  "imageUrl": "man2.jfif"
+},
+{
+  "_id": {
+    "$oid": "6575ea790647d88ae7b46be0"
+  },
+  "fname": "jasmen",
+  "admin": false,
+  "lname": "jar",
+  "dateOfBirth": "2023-03-14",
+  "gender": "Femmle",
+  "email": "jasmen@gmail.com",
+  "password": "1234",
+  "imageUrl": "girl1.png"
+},
+{
+  "_id": {
+    "$oid": "6575eb810647d88ae7b46be3"
+  },
+  "fname": "sousan",
+  "admin": false,
+  "lname": "sos",
+  "dateOfBirth": "1995-02-02",
+  "gender": "Femmle",
+  "email": "sousan@gmail.com",
+  "password": "1234",
+  "imageUrl": "girl2.jpeg"
+},
+{
+  "_id": {
+    "$oid": "6575eca80647d88ae7b46be6"
+  },
+  "fname": "jhon",
+  "admin": false,
+  "lname": "be",
+  "dateOfBirth": "1980-01-12",
+  "gender": "Male",
+  "email": "jhon@gmail.com",
+  "password": "1234",
+  "imageUrl": "man3.jpeg"
+},
+{
+  "_id": {
+    "$oid": "6575ede40647d88ae7b46be9"
+  },
+  "fname": "cris",
+  "admin": false,
+  "lname": "fol",
+  "dateOfBirth": "2000-03-03",
+  "gender": "Male",
+  "email": "cris@gmail.com",
+  "password": "1234",
+  "imageUrl": "man4.jpeg"
+},
+{
+  "_id": {
+    "$oid": "6575f3b30647d88ae7b46bed"
+  },
+  "fname": "jodia",
+  "admin": false,
+  "lname": "jod",
+  "gender": "Femmle",
+  "email": "jodia@gmail.com",
+  "dateOfBirth": "2003-08-08",
+  "password": "1234",
+  "imageUrl": "girl3.png"
+},
+{
+  "_id": {
+    "$oid": "6575f5420647d88ae7b46bf3"
+  },
+  "fname": "kathren",
+  "admin": false,
+  "lname": "cati",
+  "dateOfBirth": "2001-10-12",
+  "gender": "Femmle",
+  "email": "kathren@gmail.com",
+  "password": "1234",
+  "imageUrl": "girl4.jpeg"
+},
+{
+  "_id": {
+    "$oid": "6575f6e10647d88ae7b46bf9"
+  },
+  "fname": "ismail",
+  "admin": false,
+  "lname": "hae",
+  "dateOfBirth": "2023-11-29",
+  "gender": "Male",
+  "email": "ismail@gmail.com",
+  "password": "1234",
+  "imageUrl": "man6.jpeg"
+},
+{
+  "_id": {
+    "$oid": "6575f9880647d88ae7b46c02"
+  },
+  "fname": "kamal",
+  "admin": false,
+  "lname": "kam",
+  "dateOfBirth": "2001-06-06",
+  "gender": "Male",
+  "email": "kamal@gmail.com",
+  "password": "1234",
+  "imageUrl": "man7.jpeg"
+},
+{
+  "_id": {
+    "$oid": "6575face0647d88ae7b46c08"
+  },
+  "fname": "youssef",
+  "admin": false,
+  "lname": "youn",
+  "dateOfBirth": "1999-10-10",
+  "gender": "Male",
+  "email": "youssef@gmail.com",
+  "password": "1234",
+  "imageUrl": "man8.jpeg"
+}]

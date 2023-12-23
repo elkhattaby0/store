@@ -1,0 +1,11 @@
+npm install aos --save
+bower install aos --save
+npm i -D react-router-dom@latest
+npm install @reduxjs/toolkit
+npm install react-redux
+npm install jsonwebtoken
+npm install multer gridfs-stream
+npm install react-file-base64
+npm install body-parser
+npm i lz-string
+npm i multer

@@ -1,0 +1,615 @@
+.users {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    background: white;
+    position: absolute;
+    top: 0;
+    /* display: none; */
+
+}
+
+.usersNav {
+    /* border: 1px solid #212121; */
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+}
+.usersNav span {
+    margin: 0;
+    /* border: 1px solid red; */
+    height: 100%;
+    width: 30%;
+}
+
+.usersNav span:first-child {
+    display: flex;
+    text-align: left;
+    width: 190px;
+}
+
+
+.usersNav span:nth-child(2){
+    display: flex;
+}
+.usersNav span:nth-child(2) img {
+    height: 20px;
+    width: 20px;
+}
+.usersNav span:nth-child(2) input {
+    height: 32px;
+    width: 80%;
+    outline: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: none;
+    border-left: 1px solid #212121;
+    border-top: 1px solid #212121;
+    border-bottom: 1px solid #212121;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.usersNav span:nth-child(2) button {
+    outline: none;
+    height: 34px;
+    width: 15%;
+    border: none;
+    background: none;
+    border-right: 1px solid #212121;
+    border-top: 1px solid #212121;
+    border-bottom: 1px solid #212121;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.usersNav span:last-child {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    width: 190px;
+}
+.usersNav span:last-child button {
+    border-radius: 100%;
+    border: none;
+    background: none;    
+}
+.usersNav span:last-child div button:first-child img {
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.usersNav span:last-child button:hover {
+    background: #e8e8e8;
+}
+.usersNav span:last-child button img {
+    height: 15px;
+    width: 15px;
+    padding: 5px;
+}
+
+.usersNav span:last-child div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* border: 1px solid red; */
+    height: 100%;
+    width: 100%;
+}
+.usersNav span:last-child div button {
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    border: 1px solid #212121;
+    background: #e8e8e8;
+    padding: 0;
+    margin: 0;
+}
+.usersNav span:last-child div p{
+    padding: 0px;
+    margin: 0px;
+    
+    font-size: small;
+    width: 100%;
+    /* display: none; */
+}
+
+
+/* BODY */
+.usersBody {
+    width: 100%;
+    height: 90vh;
+    /* border: 1px solid #212121; */
+    /* background: #e8e8e8; */
+    display: flex;
+}
+
+.usersBodyLeft {
+    width: 20%;
+    height: 90vh;
+    background: rgb(14, 49, 63);
+    border-radius: 5px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+.usersBodyMiddle {
+    width: 60%;
+    height: 90vh;
+    /* border: 1px solid #212121; */
+    background: #e8e8e8;
+    border-radius: 5px;
+    display: flex;
+}
+.usersBodyRight {
+    width: 20%;
+    height: 90vh;
+    background: white;
+    /* padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center; */
+}
+
+.usersBodyLeft span {
+    padding: 0;
+    margin: 0;
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 80%; 
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-content: center; */
+}
+.usersBodyLeft button {
+    padding: 0;
+    margin: 0;
+    padding-left: 15px;
+    margin-bottom: 5px;
+    display: block;
+    height: 40px;
+    width: 90%;
+    text-align: left;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: none;
+    background: rgba(33, 33, 33, 0.5);
+    color: white;
+    cursor: pointer;
+}
+.usersBodyLeft button:hover {
+    background: #212121;
+}
+
+
+.adminNavLeftSearchUser {
+    width: 500px;   
+    height: 150px;
+    overflow: scroll;  
+    position: absolute;
+    top: 60px;
+    left: 35%;
+    /* border: 1px solid #212121; */
+    width: 238px;
+    background: white;
+    border-radius: 5px;
+    display: none;
+    box-shadow: 1px 1px 3px #212121;
+}
+.adminNavLeftSearchUser p {
+    background: #212121;
+    color: white;
+    margin: 1px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.usersBodyMiddleProduct {
+    /* border: 1px solid #212121; */
+    overflow: scroll;
+    width: 95%;
+    height: 95%;
+    border-radius: 5px;
+    background: white;
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+
+.usersBodyMiddleProductCard {
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    background: #e8e8e8;
+    height: 280px;
+    width: 180px;
+    margin: 5px;
+}
+.usersBodyMiddleProductCard img {
+    /* border: 1px solid black; */
+    height: 200px;
+    width: 180px;
+    border-radius: 5px;
+}
+.usersBodyMiddleProductCard span {
+    display: flex;
+    height: 30px;
+    /* border: 1px solid red; */
+}
+.usersBodyMiddleProductCard p {
+    text-align: center;
+    height: 20px;
+    /* border: 1px solid blue; */
+}
+.usersBodyMiddleProductCard span button:first-child {
+    background: white;
+    padding: 5px;
+    width: 50px;
+    border: 1px solid #212121;
+    border-radius: 5px;
+    color: #212121;
+    cursor: pointer;
+}
+/* .usersBodyMiddleProductCard span button:first-child p {
+    font-size: 15px;
+    color: #212121;
+    padding-left: 5px;
+    height: 10px;
+} */
+.usersBodyMiddleProductCard span button:last-child {
+    background: red;
+    padding: 5px;
+    width: 50px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+
+/* product */
+.usersBodyMiddleNewProduct {
+    width: 95%;
+    height: 95%;
+    border-radius: 5px;
+    background: white;
+    display: none;
+    align-items: center;
+}
+.usersBodyMiddleNewProduct form {
+    display: block;
+    /* height: 100%;*/
+     width: 30%; 
+    /*align-items: center;
+    text-align: center; */
+}
+.usersBodyMiddleNewProduct label{
+    display: block;
+    margin-bottom: 5px;
+}
+.usersBodyMiddleNewProduct input {
+    width: 100%;
+    height: 25px;
+    border: 1px solid #212121;
+    border-radius: 5px;
+    outline: none;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.usersBodyMiddleNewProduct button {
+    width: 103%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #212121;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.usersBodyMiddleNewProduct button:active {
+    background: green;
+    color: white;
+    border: none;
+}
+.usersBodyMiddleNewProductCard {
+    /* border: 1px solid red; */
+    background: #e8e8e8;
+    height: 280px;
+    width: 180px;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 15px;
+    box-shadow: 1px 1px 1px #212121;
+}
+.usersBodyMiddleNewProductCard img {
+    height: 200px;
+    width: 180px;
+    border-radius: 5px;
+} 
+.usersBodyMiddleNewProductCard p{
+    margin: 5px;
+}
+.usersBodyMiddleNewProductCard p:last-child {
+    font-size: 12px;
+}
+
+
+
+/*  */
+.usersBodyMiddleFollowing, .usersBodyMiddleFollowers {
+    width: 95%;
+    height: 95%;
+    border-radius: 5px;
+    background: white;
+    display: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    overflow: scroll;
+}
+.usersBodyMiddleFollowingCard, .usersBodyMiddleFollowersCard {
+    /* border: 1px solid #212121; */
+    background: #e8e8e8;
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.usersBodyMiddleFollowingCard img, .usersBodyMiddleFollowersCard img {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    border: 1px solid #212121;
+    display: block;
+}
+.usersBodyMiddleFollowingCard h3, .usersBodyMiddleFollowersCard h3 {
+    display: block;
+    text-align: center;
+    font-size: 15px;
+}
+.usersBodyMiddleFollowingCard button, .usersBodyMiddleFollowersCard button {
+    display: block;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.usersBodyMiddleSetting {
+    width: 95%;
+    height: 95%;
+    border-radius: 5px;
+    background: white;
+    display: none;
+    align-items: center;   
+}
+
+/* IMG PROFILE */
+#userimgprofile {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+#userimgprofileOne {
+    height: 300px;
+    width: 300px;
+    border-radius: 5px;
+    background: rebeccapurple;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    box-shadow: 1px 1px 200px #212121;
+}
+#userimgprofileOne img {
+    border: 2px solid white;
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    border: none;
+    border-radius: 100%;
+}
+#userimgprofileOne input {
+    /* border: 1px solid #212121; */
+    padding: 9px;
+    width: 82%;
+    border-radius: 5px;
+    background: white;
+}
+#userimgprofileOne button {
+    background: white;
+    padding: 10px;
+    width: 90%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#userimgprofileOne p {
+    color: white;
+}
+#userimgprofileOne button:active {
+    background: green;
+    color: white;
+}
+
+/* Respo nav */
+
+.usersNavResp {
+    height: 10vh;
+    width: 100%;
+    background: white;
+    display: none;
+    padding: 0;
+    margin: 0;
+}
+.usersNavRespTwo {
+    height: 100%;
+    width: 90%;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+}
+.usersNavRespLeft {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    width: 0%;
+}
+.usersNavRespRight {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    width: 67px;
+}
+.usersNavRespMiddile {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    width: 100px;
+    justify-content: center;
+}
+.usersNavRespMiddile input {
+    border: 1px solid #212121;
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+    padding-left: 8px;
+    padding-right: 5px;
+}
+
+.usersNavRespRight button:last-child {
+    border: none;
+    border-radius: 100%;
+    background: none;
+    height: 30px;
+    width: 30px;
+    padding: 2px;
+    cursor: pointer;
+}
+.usersNavRespRight button:last-child:hover {
+    background: #e8e8e8;
+}
+.usersNavRespRight button span {
+    background: #212121;
+    border-radius: 1px;
+    width: 15px;
+    padding: 1.5px;
+    margin: 3px;
+    display: block;
+}
+
+.usersNavRespRight button:first-child {
+    /* padding: 10px; */
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    background: none;
+    border: 1px solid #212121;
+}
+.usersNavRespRight button img {
+    border-radius: 100%;
+}
+.usersBodyLeftResp {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background: #212121f3;
+}
+
+.usersBodyLeftResp button {
+    display: block;
+    background: none;
+    border: none;
+    height: 10%;
+    width: 45%;
+    font-weight: 800;
+    font-size: 25px;
+    color: white;
+    text-align: left;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+}
+.usersBodyLeftResp button:hover {
+    color: blueviolet;
+}
+
+.usersBodyLeftResp button:first-child {
+    color: red;
+    position: absolute;
+    top: 1%;
+    height: 50px;
+    width: 50px;
+    /* padding: 10px; */
+    text-align: center;
+    border-radius: 100%;
+}
+.usersBodyLeftResp button:first-child:hover {
+    background: red;
+    color: white;
+}
+
+/* EditCard */
+
+.editCard {
+    height: 90vh;
+    width: 60%;    
+    filter: blur(10%);
+    position: absolute;
+    display: flex;
+    display: none;
+}
+.editCardOne {
+    background: white;
+    width: 80%;
+    height: 90%;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5000px #212121;
+}
+.editCardOne button {
+    display: block;
+    width: 100%;
+    height: 10px;
+    text-align: left;
+    padding: 61.5px;
+    font-size: larger;
+}
+
+@media screen and (max-width: 900px){
+    .usersNav, .usersBodyLeft, .usersBodyRight {
+        display: none;
+    }
+    .usersBodyMiddle {
+        width: 100%;
+    }
+    .usersNavResp {
+        display: flex;
+    }
+    .adminNavLeftSearchUser {
+        left: 125px;
+    }
+    .editCard {
+        width: 100%;
+    }
+}

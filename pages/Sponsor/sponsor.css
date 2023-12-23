@@ -1,0 +1,36 @@
+.sponsor {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    width: 100%;
+  }
+  .sponsorSpan {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .sponsor span{
+    display: flex;
+    border-radius: 5px;
+    background-color: #e8e8e8;
+    padding: 10px;
+    margin-top: 1%;
+  }
+  
+  .sponsor h1 {
+    margin-top: 5%;
+  }
+  
+
+.sponsor img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: #21212110;
+    margin: 20px;
+    padding: 20px;
+    cursor: pointer;
+}
